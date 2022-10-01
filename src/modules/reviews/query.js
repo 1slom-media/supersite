@@ -30,7 +30,7 @@ const PUTREVIEWS = `
                     when length($3) > 1 then $3
                 else o.video
             end 
-    from old_Reviews as r   
+    from old_Reviews as o   
     where r.id = $1
     returning r.*                 
 `;

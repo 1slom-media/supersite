@@ -1,40 +1,57 @@
 INSERT INTO sites(title,link,Background) VALUES
-('artel','https://artel.com','https://picsum.photos/400'),
-('instagram','https://instagram.com','https://picsum.photos/400'),
-('telegram','https://telegram.org','https://picsum.photos/400');
+('SKADIBOOST','https://vh300.timeweb.ru/parking/?ref=skadiboost.com','https://firebasestorage.googleapis.com/v0/b/telegrambot-2ae36.appspot.com/o/sites-images%2Fimage-1.png?alt=media&token=bb22092a-b1f8-4a18-ba86-40368fbb573e'),
+('23TV','https://23tv.uz/','https://firebasestorage.googleapis.com/v0/b/telegrambot-2ae36.appspot.com/o/sites-images%2Fimage-2.png?alt=media&token=19f88f24-a3a4-47d5-8db5-8ff51a1ab4f5'),
+('Yamir Tour','http://yamirtour.uz/','https://firebasestorage.googleapis.com/v0/b/telegrambot-2ae36.appspot.com/o/sites-images%2Fimage-3.png?alt=media&token=8cd1a87b-581e-473d-9c2b-e0a365f3b337'),
+('Candy Gold','http://candy-gold.uz/ru/','https://firebasestorage.googleapis.com/v0/b/telegrambot-2ae36.appspot.com/o/sites-images%2Fimage-4.png?alt=media&token=acde3fb1-e945-4776-ade8-47136df07ae7'),
+('Solarnature','http://solarnature.uz/','https://firebasestorage.googleapis.com/v0/b/telegrambot-2ae36.appspot.com/o/sites-images%2FScreenshot_1.png?alt=media&token=59322f87-474e-4d89-a231-2bbde56440d2'),
+('FCN GROUP','https://fcn.uz/','https://firebasestorage.googleapis.com/v0/b/telegrambot-2ae36.appspot.com/o/sites-images%2FScreenshot_2.png?alt=media&token=f3e2187f-ae36-4e15-921b-e04283f2b503');
+
 
 INSERT INTO partners(LogoImage) VALUES
-('https://picsum.photos/400'),
-('https://picsum.photos/400'),
-('https://picsum.photos/400'),
-('https://picsum.photos/400');
+('https://firebasestorage.googleapis.com/v0/b/telegrambot-2ae36.appspot.com/o/image-carusel%2Fimage-1.svg?alt=media&token=b92d21bb-e875-40c9-abb2-2c4e03b07b95'),
+('https://firebasestorage.googleapis.com/v0/b/telegrambot-2ae36.appspot.com/o/image-carusel%2Fimage-2.svg?alt=media&token=a791f7e2-84d5-4e30-ae40-c970321865fc'),
+('https://firebasestorage.googleapis.com/v0/b/telegrambot-2ae36.appspot.com/o/image-carusel%2Fimage-3.svg?alt=media&token=670d40dc-57f3-4d5d-a1c4-18e3a7f3e6bb'),
+('https://firebasestorage.googleapis.com/v0/b/telegrambot-2ae36.appspot.com/o/image-carusel%2Fimage-4.svg?alt=media&token=ef6ec088-887b-4501-a1e5-8e33c4af6e61'),
+('https://firebasestorage.googleapis.com/v0/b/telegrambot-2ae36.appspot.com/o/image-carusel%2Fimage-5.svg?alt=media&token=b4cd945c-ea4a-487d-a23e-1005e2ec5bcf'),
+('https://firebasestorage.googleapis.com/v0/b/telegrambot-2ae36.appspot.com/o/image-carusel%2Fimage-6.svg?alt=media&token=3bfcaa13-ce81-4fa6-aeb0-39f59a81ecbc'),
+('https://firebasestorage.googleapis.com/v0/b/telegrambot-2ae36.appspot.com/o/image-carusel%2Fimage-7.svg?alt=media&token=422a2837-bf29-474c-8784-ce9819beadf2'),
+('https://firebasestorage.googleapis.com/v0/b/telegrambot-2ae36.appspot.com/o/image-carusel%2Fimage-8.svg?alt=media&token=05d0a885-1b83-4e14-a5ee-10a3fe4749fb'),
+('https://firebasestorage.googleapis.com/v0/b/telegrambot-2ae36.appspot.com/o/image-carusel%2Fimage-9.svg?alt=media&token=0f3ea7de-35a8-4d94-99fe-0bc50154923b'),
+('https://firebasestorage.googleapis.com/v0/b/telegrambot-2ae36.appspot.com/o/image-carusel%2Fimage-10.svg?alt=media&token=985ff171-f737-45b6-8008-987f0ed9a263'),
+('https://firebasestorage.googleapis.com/v0/b/telegrambot-2ae36.appspot.com/o/image-carusel%2Fimage-11.svg?alt=media&token=28c1c93e-ff5e-4212-9fd4-51f0f1acc88f'),
+('https://firebasestorage.googleapis.com/v0/b/telegrambot-2ae36.appspot.com/o/image-carusel%2Fimage-12.svg?alt=media&token=2f491bff-5a2d-43a6-89c1-af4cb3594b14'),
+('https://firebasestorage.googleapis.com/v0/b/telegrambot-2ae36.appspot.com/o/image-carusel%2Fimage-13.svg?alt=media&token=ead69aec-fb40-4661-a385-09b9716726e9'),
+('https://firebasestorage.googleapis.com/v0/b/telegrambot-2ae36.appspot.com/o/image-carusel%2Fimage-14.svg?alt=media&token=e755ada8-4666-4f6f-a9a6-55fdf25951ab'),
+('https://firebasestorage.googleapis.com/v0/b/telegrambot-2ae36.appspot.com/o/image-carusel%2Fimage-15.svg?alt=media&token=9c0cdcf6-7986-4b8b-ae48-c1865f2038c9');
 
 INSERT INTO contactUs(name,PhoneNumber,Comment) VALUES
-('jasur','+998990008800','ajoyib zo`r siiiiuuuu'),
-('ulug`','+998990008800','---------......99999jdghdhf'),
-('said','+998990008800','exxxxxhhdudu'),
-('java','+998990008800','nimadirlarrrrrrrrrrrrrrr');
+('Saidbek','+998915039390','Juda zo''r kompaniya ishlaringni rivojni bersin  ! Juda zo''r kompaniya ishlaringni rivojni bersin  ! Juda zo''r kompaniya ishlaringni rivojni bersin  ! Juda zo''r kompaniya ishlaringni rivojni bersin  !'),
+('Axadbek','+998915033253','Juda zo''r kompaniya ishlaringni rivojni bersin !'),
+('Aziza','+998913215465','Juda zo''r kompaniya ishlaringni rivojni bersin  ! Juda zo''r kompaniya ishlaringni rivojni bersin  ! Juda zo''r kompaniya ishlaringni rivojni bersin  ! Juda zo''r kompaniya ishlaringni rivojni bersin  ! Juda zo''r kompaniya ishlaringni rivojni bersin  ! Juda zo''r kompaniya ishlaringni rivojni bersin  ! Juda zo''r kompaniya ishlaringni rivojni bersin  ! Juda zo''r kompaniya ishlaringni rivojni bersin  ! Juda zo''r kompaniya ishlaringni rivojni bersin  ! Juda zo''r kompaniya ishlaringni rivojni bersin  ! Juda zo''r kompaniya ishlaringni rivojni bersin  ! Juda zo''r kompaniya ishlaringni rivojni bersin  !');
+
 
 INSERT INTO claimVoucher(name,PhoneNumber,Comment) VALUES
-('gay','+998990008800','ajoyib zo`r siiiiuuuu'),
-('zarif','+998990008800','---------......99999jdghdhf'),
-('doni','+998990008800','exxxxxhhdudu'),
-('said','+998990008800','men yozgandan kin ajoyib bo`ladida :)');
+('Munisa','+998915039390','Juda zo''r kompaniya ishlaringni rivojni bersin !'),
+('Lazizbek','+998915033253','Juda zo''r kompaniya ishlaringni rivojni bersin !');
 
 INSERT INTO Workers(imageAvatar, WorkerName, WorkerPosition) VALUES
-('https://picsum.photos/400','sidbek','fullstack developer'),
-('https://picsum.photos/400','jasurbek','backend developer'),
-('https://picsum.photos/400','gay','fronend developer'),
-('https://picsum.photos/400','islom','fullstack developer');
+('https://firebasestorage.googleapis.com/v0/b/telegrambot-2ae36.appspot.com/o/image-avatar%2Fimage-1.png?alt=media&token=b317579e-6c39-485d-bae8-bbc9defdd2d3','Сарвиноз','Основатель компании'),
+('https://firebasestorage.googleapis.com/v0/b/telegrambot-2ae36.appspot.com/o/image-avatar%2Fimage-2.png?alt=media&token=d4e13411-4b2f-40a9-bad1-ea00ed8498c3','','Проект менеджер'),
+('https://firebasestorage.googleapis.com/v0/b/telegrambot-2ae36.appspot.com/o/image-avatar%2Fimage-3.png?alt=media&token=a6b2a7b9-fe1e-47af-bc00-87b6ef693b82','Шайбонишох','Программист'),
+('https://firebasestorage.googleapis.com/v0/b/telegrambot-2ae36.appspot.com/o/image-avatar%2Fimage-4.png?alt=media&token=4d9e1fa0-a4fc-4769-bb0a-2c6c122136f2','Жавохир','Моушен дизайнер'),
+('https://firebasestorage.googleapis.com/v0/b/telegrambot-2ae36.appspot.com/o/image-avatar%2Fimage-6.png?alt=media&token=d27e4be5-3a42-4bf1-815a-1f8105dab69e','Бахтиёр','Программист'),
+('https://firebasestorage.googleapis.com/v0/b/telegrambot-2ae36.appspot.com/o/image-avatar%2Fimage-8.png?alt=media&token=fb75bfa7-4980-457e-a0d8-59f09256892a','Сардор','Front-end разработчик'),
+('https://firebasestorage.googleapis.com/v0/b/telegrambot-2ae36.appspot.com/o/image-avatar%2Fimage-9.png?alt=media&token=c0ac85ea-2669-4698-afda-70ec961f8971','Сергей','Веб-дизайнер'),
+('https://firebasestorage.googleapis.com/v0/b/telegrambot-2ae36.appspot.com/o/image-avatar%2Fimage-10.png?alt=media&token=9232c965-752f-4459-afa9-b02e241a105a','Анвар','Разработчик Телеграм Ботов');
  
 
 INSERT INTO Blog(TitleRu,DescriptionRu,TitleEn,DescriptionEn,TitleUz,DescriptionUz) VALUES
-('ruscha','ruschada nimadirlarrrrrr','inglizcha','inglizchada nimadirlarrr','uzbekcha','o`zbekchada nimadirlarrrr'),
-('ruscha 2','ruschada 2 nimadirlarrrrrr','inglizcha','inglizchada nimadirlarrr','uzbekcha','o`zbekchada nimadirlarrrr'),
-('ruscha 3','ruschada  3 nimadirlarrrrrr','inglizcha','inglizchada nimadirlarrr','uzbekcha','o`zbekchada nimadirlarrrr');
+('Что дает сайт?','аждая компания сама определяет, для чего нужен сайт. Частные лица с помощью сайтов рассказывают о себе потенциальным работодателям или клиентам (если владелец сайта — предприниматель или фрилансер); ищут единомышленников для общения; делятся опытом и творчеством, чтобы получить фидбэк от аудитории. Сегодня мы живем в эпоху, когда сайты частных лиц заменяются профайлами в соцсетях, поэтому подавляющее большинство сайтов — корпоративные.','Saytga nima beradi?','ar bir kompaniya sayt nima uchun ekanligini aniqlaydi. Jismoniy shaxslar potentsial ish beruvchilar yoki mijozlarga o''zlari haqida aytib berish uchun saytlardan foydalanadilar (agar sayt egasi tadbirkor yoki frilanser bo''lsa); muloqot qilish uchun hamfikrlarni qidiring; tajriba almashing va tomoshabinlarning fikr-mulohazalarini olish uchun ijodkorlik. Bugun biz alohida saytlar ijtimoiy tarmoq profillari bilan almashtirilayotgan davrda yashayapmiz, shuning uchun saytlarning katta qismi korporativdir.','What gives the site ?','Each company determines what the site is for. Individuals use sites to tell potential employers or clients about themselves (if the owner of the site is an entrepreneur or freelancer); look for like-minded people to communicate; share experience and creativity to get feedback from the audience.Today we live in an era when individual sites are being replaced by social media profiles, so the vast majority of sites are corporate.'),
+('Что дает сайт?','аждая компания сама определяет, для чего нужен сайт. Частные лица с помощью сайтов рассказывают о себе потенциальным работодателям или клиентам (если владелец сайта — предприниматель или фрилансер); ищут единомышленников для общения; делятся опытом и творчеством, чтобы получить фидбэк от аудитории. Сегодня мы живем в эпоху, когда сайты частных лиц заменяются профайлами в соцсетях, поэтому подавляющее большинство сайтов — корпоративные.','Saytga nima beradi?','ar bir kompaniya sayt nima uchun ekanligini aniqlaydi. Jismoniy shaxslar potentsial ish beruvchilar yoki mijozlarga o''zlari haqida aytib berish uchun saytlardan foydalanadilar (agar sayt egasi tadbirkor yoki frilanser bo''lsa); muloqot qilish uchun hamfikrlarni qidiring; tajriba almashing va tomoshabinlarning fikr-mulohazalarini olish uchun ijodkorlik. Bugun biz alohida saytlar ijtimoiy tarmoq profillari bilan almashtirilayotgan davrda yashayapmiz, shuning uchun saytlarning katta qismi korporativdir.','What gives the site ?','Each company determines what the site is for. Individuals use sites to tell potential employers or clients about themselves (if the owner of the site is an entrepreneur or freelancer); look for like-minded people to communicate; share experience and creativity to get feedback from the audience.Today we live in an era when individual sites are being replaced by social media profiles, so the vast majority of sites are corporate.'),
+('Что дает сайт?','аждая компания сама определяет, для чего нужен сайт. Частные лица с помощью сайтов рассказывают о себе потенциальным работодателям или клиентам (если владелец сайта — предприниматель или фрилансер); ищут единомышленников для общения; делятся опытом и творчеством, чтобы получить фидбэк от аудитории. Сегодня мы живем в эпоху, когда сайты частных лиц заменяются профайлами в соцсетях, поэтому подавляющее большинство сайтов — корпоративные.','Saytga nima beradi?','ar bir kompaniya sayt nima uchun ekanligini aniqlaydi. Jismoniy shaxslar potentsial ish beruvchilar yoki mijozlarga o''zlari haqida aytib berish uchun saytlardan foydalanadilar (agar sayt egasi tadbirkor yoki frilanser bo''lsa); muloqot qilish uchun hamfikrlarni qidiring; tajriba almashing va tomoshabinlarning fikr-mulohazalarini olish uchun ijodkorlik. Bugun biz alohida saytlar ijtimoiy tarmoq profillari bilan almashtirilayotgan davrda yashayapmiz, shuning uchun saytlarning katta qismi korporativdir.','What gives the site ?','Each company determines what the site is for. Individuals use sites to tell potential employers or clients about themselves (if the owner of the site is an entrepreneur or freelancer); look for like-minded people to communicate; share experience and creativity to get feedback from the audience.Today we live in an era when individual sites are being replaced by social media profiles, so the vast majority of sites are corporate.'),
+('Что дает сайт?','аждая компания сама определяет, для чего нужен сайт. Частные лица с помощью сайтов рассказывают о себе потенциальным работодателям или клиентам (если владелец сайта — предприниматель или фрилансер); ищут единомышленников для общения; делятся опытом и творчеством, чтобы получить фидбэк от аудитории. Сегодня мы живем в эпоху, когда сайты частных лиц заменяются профайлами в соцсетях, поэтому подавляющее большинство сайтов — корпоративные.','Saytga nima beradi?','ar bir kompaniya sayt nima uchun ekanligini aniqlaydi. Jismoniy shaxslar potentsial ish beruvchilar yoki mijozlarga o''zlari haqida aytib berish uchun saytlardan foydalanadilar (agar sayt egasi tadbirkor yoki frilanser bo''lsa); muloqot qilish uchun hamfikrlarni qidiring; tajriba almashing va tomoshabinlarning fikr-mulohazalarini olish uchun ijodkorlik. Bugun biz alohida saytlar ijtimoiy tarmoq profillari bilan almashtirilayotgan davrda yashayapmiz, shuning uchun saytlarning katta qismi korporativdir.','What gives the site ?','Each company determines what the site is for. Individuals use sites to tell potential employers or clients about themselves (if the owner of the site is an entrepreneur or freelancer); look for like-minded people to communicate; share experience and creativity to get feedback from the audience.Today we live in an era when individual sites are being replaced by social media profiles, so the vast majority of sites are corporate.'),
+('Что дает сайт?','аждая компания сама определяет, для чего нужен сайт. Частные лица с помощью сайтов рассказывают о себе потенциальным работодателям или клиентам (если владелец сайта — предприниматель или фрилансер); ищут единомышленников для общения; делятся опытом и творчеством, чтобы получить фидбэк от аудитории. Сегодня мы живем в эпоху, когда сайты частных лиц заменяются профайлами в соцсетях, поэтому подавляющее большинство сайтов — корпоративные.','Saytga nima beradi?','ar bir kompaniya sayt nima uchun ekanligini aniqlaydi. Jismoniy shaxslar potentsial ish beruvchilar yoki mijozlarga o''zlari haqida aytib berish uchun saytlardan foydalanadilar (agar sayt egasi tadbirkor yoki frilanser bo''lsa); muloqot qilish uchun hamfikrlarni qidiring; tajriba almashing va tomoshabinlarning fikr-mulohazalarini olish uchun ijodkorlik. Bugun biz alohida saytlar ijtimoiy tarmoq profillari bilan almashtirilayotgan davrda yashayapmiz, shuning uchun saytlarning katta qismi korporativdir.','What gives the site ?','Each company determines what the site is for. Individuals use sites to tell potential employers or clients about themselves (if the owner of the site is an entrepreneur or freelancer); look for like-minded people to communicate; share experience and creativity to get feedback from the audience.Today we live in an era when individual sites are being replaced by social media profiles, so the vast majority of sites are corporate.');
 
 
 INSERT INTO Reviews(title,video) VALUES
-('super video','https://picsum.photos/400'),
-('muper video','https://picsum.photos/400'),
-('kuper video','https://picsum.photos/400');
+('Гранд холл','https://res.cloudinary.com/dugfn5qgj/video/upload/v1664192354/r5r0uayudcavedhlpsw0.mp4');

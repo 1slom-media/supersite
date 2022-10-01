@@ -1,6 +1,6 @@
 CREATE DATABASE supersite;
 \c supersite;
-
+drop table sites;
 CREATE TABLE IF NOT EXISTS sites(
    id serial primary key,
    title varchar(200) not null,
@@ -13,18 +13,20 @@ CREATE TABLE IF NOT EXISTS partners(
    LogoImage text not null
 );
 
+drop TABLE contactUs;
 CREATE TABLE IF NOT EXISTS contactUs(
    id serial primary key,
    name varchar(32) not null,
    PhoneNumber varchar(15) not null,
-   Comment varchar(150) not null
+   Comment text not null
 );
 
+drop TABLE claimVoucher;
 CREATE TABLE IF NOT EXISTS claimVoucher(
    id serial primary key,
    name varchar(32) not null,
    PhoneNumber varchar(15) not null,
-   Comment varchar(150) not null
+   Comment text not null
 );
 
 CREATE TABLE IF NOT EXISTS Workers(
