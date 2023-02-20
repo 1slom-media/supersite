@@ -6,8 +6,8 @@ const GETWORKERS = `
 `;
 
 const POSTWORKERS =`
-insert into Workers (imageAvatar, WorkerName, WorkerPosition)
-values ($1, $2, $3) returning *
+insert into Workers (imageAvatar, WorkerName, WorkerPosition,WorkerName_Uz,WorkerName_En,WorkerPosition_Uz,WorkerPosition_En)
+values ($1, $2, $3,$4,$5,$6,$7) returning *
 `;
 
 const PUTWORKERS = `
@@ -16,7 +16,11 @@ const PUTWORKERS = `
             id,
             imageAvatar,
             WorkerName, 
-            WorkerPosition
+            WorkerPosition,
+            WorkerName_Uz,
+            WorkerName_En,
+            WorkerPosition_Uz,
+            WorkerPosition_En
         from Workers
         where id = $1    
     ) update Workers as w 
@@ -35,7 +39,27 @@ const PUTWORKERS = `
                 case 
                     when length($4) > 1 then $4
                 else o.WorkerPosition
-            end 
+            end,
+            WorkerName_Uz = 
+                case 
+                    when length($5) > 1 then $5
+                else o.WorkerName_Uz
+            end,
+            WorkerName_En = 
+                case 
+                    when length($6) > 1 then $6
+                else o.WorkerName_En
+            end,
+            WorkerPosition_Uz = 
+                case 
+                    when length($7) > 1 then $7
+                else o.WorkerPosition_Uz
+            end,
+            WorkerPosition_En = 
+                case 
+                    when length($8) > 1 then $8
+                else o.WorkerPosition_En
+            end
     from old_Workers as o   
     where w.id = $1
     returning w.*                 

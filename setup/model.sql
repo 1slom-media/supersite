@@ -36,6 +36,15 @@ CREATE TABLE IF NOT EXISTS Workers(
    WorkerPosition varchar(32) not null
 );
 
+ALTER TABLE Workers
+ADD COLUMN WorkerName_Uz varchar;
+ALTER TABLE Workers
+ADD COLUMN WorkerName_En varchar;
+ALTER TABLE Workers
+ADD COLUMN WorkerPosition_Uz varchar;
+ALTER TABLE Workers
+ADD COLUMN WorkerPosition_En varchar;
+
 CREATE TABLE IF NOT EXISTS Reviews(
    id serial primary key,
    title varchar(60) not null,

@@ -15,17 +15,17 @@ const GET = async ({WorkersId=0}) => {
     }
 };
 
-const POST = async ({ imageAvatar, WorkerName, WorkerPosition}) => {
+const POST = async ({ imageAvatar, WorkerName, WorkerPosition,WorkerName_Uz,WorkerName_En,WorkerPosition_Uz,WorkerPosition_En}) => {
     try {
-      return await fetch(POSTWORKERS, [imageAvatar, WorkerName, WorkerPosition]);
+      return await fetch(POSTWORKERS, [imageAvatar, WorkerName, WorkerPosition,WorkerName_Uz,WorkerName_En,WorkerPosition_Uz,WorkerPosition_En]);
     } catch (error) {
         console.log(error);
     }
 };
 
-const PUT = async ({WorkersId},{ imageAvatar='', WorkerName='', WorkerPosition=''}) => {
+const PUT = async ({WorkersId},{ imageAvatar='', WorkerName='', WorkerPosition='',WorkerName_Uz,WorkerName_En,WorkerPosition_Uz,WorkerPosition_En}) => {
     try {
-      return await fetch(PUTWORKERS, [WorkersId, imageAvatar, WorkerName, WorkerPosition]);
+      return await fetch(PUTWORKERS, [WorkersId, imageAvatar, WorkerName, WorkerPosition,WorkerName_Uz,WorkerName_En,WorkerPosition_Uz,WorkerPosition_En]);
     } catch (error) {
         console.log(error);
     }
