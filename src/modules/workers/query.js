@@ -3,6 +3,7 @@ const GETWORKERS = `
         w.*
     from Workers as w
     where case when $1 > 0 then w.id = $1 else true end
+    order by w.id
 `;
 
 const POSTWORKERS =`
